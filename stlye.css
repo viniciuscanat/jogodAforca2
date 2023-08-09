@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  body {
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('qq2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .titulo {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%; 
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .links {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 55px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin: 10px; 
+    width: 90%;
+  }
+  
+  .links:hover {
+    background-color: #750ce6;
+  }
+  
+  /* Estilos para telas pequenas (como smartphones) */
+  @media only screen and (max-width: 600px) {
+    .titulo {
+      font-size: 40px; 
+    }
+  
+    .links {
+      font-size: 35px; 
+    }
+  }
+  
